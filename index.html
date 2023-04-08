@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/inima.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  <title>Ingrid și Andra</title>
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <p class="logo"><a href="easteregg.html" target="_blank">Ingrid și Andra</a></p>
+      <div class="nav__links" id="nav__links">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="#despre-noi">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>Ingrid și Andra sunt SUPER</h1>
+      <a href="#despre-noi" class="btn">Click aici pentru a afla mai multe</a>
+    </div>
+  </section>
+
+  <section class="despre-noi" id="despre-noi">
+    <h1>Noi suntem Ingrid și Andra și suntem foarte super!</h1>
+    <div class="row">
+      <div class="despre-noi-col">
+        <h3>Ingrid este super!</h3>
+        <p>Ingrid este super pentru că este frumoasă, hot și are bani. De asemenea, Ingrid este foarte foarte foarte deșteaptă. Ingrid știe algebră și analiză!!! Culoarea preferată este roșu corai, dar îi place și albastru cerneală. Ingrid citește muuuuult, una din cărțile preferate este "Ca și cum nimic nu s-ar fi întâmplat" de Alina Nelega. Ingrid bea gin tonic și îi place sarea. Ingrid este deosebită fiindcă îi place Labradoritul. Ingrid este Leu!</p>
+      </div>
+      <div class="despre-noi-col">
+        <h3>Andra este super!</h3>
+        <p>Andra este super pentru că așa s-a născut. Andra știe info și nu știe mate ca Ingrid. Andra iubește pisicile și cafeluțele. Andra este Săgetător!</p>
+      </div>
+      <div class="despre-noi-col">
+        <h3>Împreună</h3>
+        <p>Împreună Ingrid și Andra sunt super! Ingrid și Andra nu au prea multe lucruri în comun dar se înțeleg foarte bine!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="poze">
+    <h1>Câteva poze cu noi! &#128515;</h1>
+    <div class="row">
+      <div class="poze-col">
+          <img src="images/ingrid.jpg">
+          <div class="layer">
+              <h3>INGRID</h3>
+          </div>
+      </div>
+      <div class="poze-col">
+          <img src="images/eu.jpg">
+          <div class="layer">
+              <h3>ANDRA</h3>
+          </div>
+      </div>
+      <div class="poze-col">
+          <img src="images/ingridsiandra.jpg">
+          <div class="layer">
+              <h3>INGRID ȘI ANDRA</h3>
+          </div>
+      </div>
+  </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h1>Contact</h1>
+    <p>
+      Momentan Ingrid și Andra nu pot fi contactate!
+    </p>
+</section>
+
+  <script>
+    var nav__links=document.getElementById("nav__links")
+    function showMenu() {
+      nav__links.style.right="0";
+    }
+    function hideMenu() {
+      nav__links.style.right="-200px";
+    }
+  </script>
+</body>
+</html>
